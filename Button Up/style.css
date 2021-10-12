@@ -1,0 +1,30 @@
+button{
+    min-width: min-content;
+}
+
+.search{
+    width: 100px;
+    background-color: rgb(225, 226, 221);
+    border-radius: 10px;
+    border: 1.5px solid rgb(88, 115, 151);
+    font-weight: bold;
+    color: rgb(88, 115, 151);
+}
+
+.plus{
+    background-color: rgb(26, 151, 151);
+    color: white;
+    border: transparent;
+    border-radius: 40px;
+}
+
+.createacc{
+    background-color: rgb(34, 87, 201);
+    border-radius: 0px;
+    border-style: solid;
+    border-color: black;
+    width: 110px;
+    color: white;
+    font-weight: lighter;
+    box-shadow: 3px 3px black;
+}
