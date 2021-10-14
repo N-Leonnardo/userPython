@@ -1,0 +1,37 @@
+*{
+    background-color: rgb(182, 182, 182);
+}
+h1{
+    font-family: sans-serif;
+    text-align: center;
+}
+img{
+    width: 200px;
+    background-color: cyan;
+    margin-right: 10px;
+    
+}
+.block{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.one{
+    background-color: cyan;
+}
+
+.two{
+    background-color: pink;
+}
+
+.three{
+    background-color: white;
+}
+
+h3{
+    font-family: sans-serif;
+    font-weight: lighter;
+    text-align: center;
+    font-size: small;
+}
