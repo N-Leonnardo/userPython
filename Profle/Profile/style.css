@@ -1,0 +1,166 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+h1{
+    font-family: sans-serif;
+}
+h2{
+    font-family: sans-serif;
+}
+h3{
+    font-family: sans-serif;
+}
+.navbar{
+    padding-left: 12.5%;
+    padding-right: 12.5%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+    color: white;
+    background-color: black;
+}
+
+.header1{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.header1 ul{
+    display: flex;
+    justify-content: space-around;
+    margin-left: 60px
+}
+.header1 li{
+    list-style-type: none;
+}
+
+.header1 a{
+    list-style-type: none;
+    margin-right: 20px;
+    color: white;
+    text-decoration: none;
+}
+
+.posts{
+    margin-top: 60px;
+    display: flex;
+    justify-content: center;
+}
+
+.rightSide{
+    width: 25%;
+    height: auto;
+    background-color: white;
+    display: flex;
+}
+
+.leftSide{
+    width: 50%;
+    height: auto;
+    background-color: white;
+}
+
+.banner{
+    position: relative;
+    width: 100%;
+    height: 160px;
+    background-color: cyan;
+}
+.card img{
+    position: relative;
+    width: 100px;
+    height: auto;
+    border-radius: 100px;
+}
+
+
+.card{
+    position:relative;
+    border: none;
+}
+.marginInf{
+    margin-left: 20px;
+}
+.marginC{
+    margin-bottom: 1%;
+}
+
+.city{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.name{
+    margin-bottom: 20px;
+}
+.city img{
+    margin-right: 10px;
+    width: 12px;
+    height: 16px;
+}
+.editP{
+    margin-top: 30px;
+    display: flex;
+
+}
+.editP img{
+    margin-right: 10px;
+    width: 20px;
+    height: auto;
+}
+.avatar{
+    position: relative;
+    bottom: 60px;
+    box-shadow: 1px 1px 5px gray;
+    border: solid 8px white;
+}
+
+.info{
+    position: relative;
+    bottom: 50px;
+}
+.borderW{
+    margin: 10px 10px 10px 10px;
+    border: solid 2px rgb(196, 196, 196);
+    box-shadow: 1px 1px 5px gray;
+}
+
+.conectionsReq{
+    display: block;
+}
+.notification{
+    font-size: larger;
+    border: none;
+    border-radius: 100px;
+    background-color: red;
+    padding: 10px 15px 10px 15px;
+}
+
+.tBackground{
+    width: 100%;
+    height: 60px;
+    background-color: rgb(17, 0, 149);
+}
+
+.titleB{
+    margin-left: 30px;
+    position: relative;
+    top: 30%;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+
+.content{
+    padding: 30px 30px 30px 30px;
+
+}
+
+.contentSpace{
+    margin-bottom: 10px;
+}
