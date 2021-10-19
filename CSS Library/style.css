@@ -1,0 +1,83 @@
+*{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+    margin: 0;
+    padding: 0;
+
+}
+body{
+    background-color: #000112;
+    background-image: url("/Users/admin/Documents/Coding BootCamp/CSS Library/photo-1507842217343-583bb7270b66.jpeg");
+}
+
+.navbar{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    background-color: black;
+    width: 100%;
+    height: 50px;
+}
+a{
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 16pt;
+    color: #f9f9f9;
+    text-shadow: 2px 8px 6px rgba(0,0,0,0.2), 0px -5px 35px rgba(255,255,255,0.3);
+}
+button{
+
+    width: 60%;
+    box-shadow: 1px -3px 7px -1px rgba(0,0,0,0.36);
+    margin-bottom: 15px;
+    padding: 10px 30px 10px 30px;
+    border-radius: 10px;
+    border: none;
+    background-color: rgb(51, 0, 255);
+}
+.profile img{
+    border-radius: 60% 30% 50% 70%;
+    width: 100px;
+    height: 100px;
+    position: relative;
+    bottom: 60px;
+
+}
+.profile h1{
+    position: relative;
+    bottom: 45px;
+    font-size: medium;
+    color: rgb(14, 180, 180);
+}
+
+.profile{
+    border-radius: 20px 0px 0% 20px;
+    width: 25%;
+    height: 100px;
+    background-color: white;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: medium;
+}
+.projects{
+    z-index: 1;
+    border-radius: 30px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    width: 50%;
+    height: 300px;
+    background-color: rgba(141, 220, 233, 0.8);
+    margin-top: 20px;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.libary{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
