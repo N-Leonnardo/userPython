@@ -1,0 +1,81 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+
+}
+.align{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.navbar{
+    width: 75%;
+    padding-left: 2%;
+    padding: 1%;
+    background-color: rgb(188, 188, 188);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.container{
+    padding: 1%;
+    justify-content: center;
+    display: flex;
+    vertical-align: top;
+}
+
+.words{
+    width: 50%;
+    margin-right: 1%;
+
+}
+.definitionsadd{
+    padding : 1%;
+    text-align: left;
+    font-size: small;
+    display: flex;
+    flex-direction: column;
+    border: 2px solid #1C6EA4;
+    width: 25%;
+    height: 150px;
+    font-size: smaller;
+}
+.searchbar input{
+    width: 400px;
+
+}
+.definitionsadd button{
+    margin-top: 10%;
+    background-color: green;
+    padding: 2% 20% 2% 20%;
+}
+.ninja{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.ninja h1, h3, h6, p{
+    margin-bottom: 15%;
+    text-align: center;
+
+}
+.definition{
+    margin-left: 5%;
+    margin-top: 20%;
+}
+.post{
+    display: flex;
+    align-items: center;
+    padding: 5%;
+    margin-bottom: 2%;
+    border: 2px solid #1C6EA4; 
+}
+
+.likes{
+    margin-top: 20px;
+    background-color: orange;
+    padding: 10%;
+}
